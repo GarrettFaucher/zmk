@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+/ {
+    behaviors {
+        /omit-if-no-ref/ nb: null_bind {
+            compatible = "zmk,behavior-null-bind";
+            #binding-cells = <2>;
+            display-name = "Null Bind";
+        };
+    };
+};
